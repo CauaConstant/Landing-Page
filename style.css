@@ -344,6 +344,7 @@ tfoot td, table th {
 .close-menu {
 display: none;
 }
+
 @media (max-width: 800px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
@@ -422,4 +423,10 @@ justify-content: center;
 
 .menu-spacing {
     display: none;
+}
+
+@media (max-width: 800px) {
+    h2.january {
+        font-size: 5rem;
+    }
 }
